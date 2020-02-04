@@ -8,7 +8,7 @@
 // User Configuration //////////////////////////////////////////////////////////
 // All times are in millis, and thresholds are ints
 // For variables with a 'Threshold', updates are only sent to hass if the value
-// changes more than the set threshold.
+// changes more or less than the set threshold.
 // Tune these thresholds high enough to stop undesired spamming from noise,
 // and low enough to reliably capture all desired changes in state.
 // Mains and brick are more or less on/off, so large values are fine.
